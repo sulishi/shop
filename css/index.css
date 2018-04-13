@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    background-color: #58dfd1;
+    width: 100%;
+}
+
+.top a {
+    z-index: -1;
+    display: block;
+    margin-left: 40px;
+    height: 80px;
+    width: 100%;
+    background: url(../image/top1.jpg) no-repeat;
+}
+
+.top img {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    opacity: 0.6;
+}
+
+.top img:hover {
+    opacity: 1;
+}
